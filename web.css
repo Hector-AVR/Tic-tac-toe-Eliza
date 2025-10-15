@@ -1,0 +1,100 @@
+body, html { 
+  margin:0; 
+  padding:0; 
+  height:100%; 
+  font-family: Arial; 
+}
+
+.container { 
+  display:flex; 
+  flex-direction:column; 
+  height:100vh; 
+}
+
+.main { 
+  flex:1; 
+  display:flex; 
+  overflow: hidden; /* evita que el contenido salga del contenedor */
+}
+
+.left-ico { 
+  width:400px; 
+  display:flex; 
+  align-items:center; 
+  justify-content:center; 
+}
+
+.right-div { 
+  width:300px; 
+  margin:10px; 
+  background:#d0e0f0; 
+  padding:10px; 
+  overflow-y:auto; /* scroll solo en historial */
+}
+
+.content { 
+  flex:1; 
+  background:#fff; 
+  padding:10px; 
+  overflow-y:auto; /* scroll solo en chat */
+}
+
+.bottom-input { 
+  position: fixed; /* mantiene la barra en la parte inferior */
+  bottom: 0; 
+  left: 0; 
+  right: 0; 
+  padding:10px; 
+  border-top:1px solid #ccc; 
+  display:flex; 
+  background: #f5f5f5; /* fondo para que no quede transparente */
+  z-index: 100; /* asegura que quede sobre el contenido */
+}
+
+.bottom-input input { 
+  flex:1; 
+  padding:8px; 
+  font-size:16px; 
+}
+
+.bottom-input button { 
+  margin-left:10px; 
+  padding:8px 12px; 
+  font-size:16px; 
+}
+
+/* Estilos para el chat principal */
+.message { 
+  margin-bottom:5px; 
+  word-wrap: break-word; 
+}
+
+.message.user { 
+  text-align:right; 
+  color:blue; 
+}
+
+.message.server { 
+  text-align:left; 
+  color:green; 
+}
+
+/* Estilos para el historial */
+.history-title { 
+  font-weight:bold; 
+  margin-bottom:10px; 
+}
+
+.history-entry { 
+  font-size:14px; 
+  margin-bottom:4px; 
+  color:#333; 
+}
+
+.history-entry.user { 
+  color:blue; 
+}
+
+.history-entry.server { 
+  color:green; 
+}

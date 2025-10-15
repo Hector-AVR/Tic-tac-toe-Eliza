@@ -1,0 +1,81 @@
+initial: Hola, soy Eliza en español. ¿Cómo te sientes hoy?
+final: Ha sido un gusto hablar contigo. ¡Adiós!
+quit: salir
+quit: adiós
+quit: chao
+
+key: hola 10
+decomp: *
+reasmb: Que onda soy Byleth, como estas?
+reasmb: Hola que tal!
+reasmb: Kiubo cuate
+
+key: Reconozco 10
+decomp: *
+reasmb: Reconozco tu cara
+
+key: Cuentamelo 5
+decomp: *
+reasmb: Yo no digo nada
+
+key: Recuerdo 10
+decomp: *
+reasmb: Wow, suena a que fue importante para ti
+reasmb: siento escucharlo
+
+key: Extraño 10
+decomp: *
+reasmb: deja de estar de pendejo
+
+pre: estoy soy a todo que
+pre: era fui su voz Nirvana
+
+post: mi tu
+post: yo tú
+
+synon: triste deprimido melancólico aguitado
+synon: feliz alegre contento
+synon: Nirvana ella
+
+key: madre 5
+decomp: * madre *
+reasmb: Cuéntame más sobre tu madre.
+reasmb: ¿Qué relación tienes con tu madre?
+reasmb: ¿Crees que tu madre influye en lo que sientes?
+
+key: @Nirvana 10
+decomp: * @Nirvana *
+reasmb: Wow, suena a que fue importante para ti
+reasmb: siento escucharlo
+reasmb: deja de estar de pendejo
+
+key: @triste 8
+decomp: me siento *
+reasmb: ¿Por qué te sientes (1)?
+reasmb: ¿Desde cuándo te sientes (1)?
+reasmb: ¿Qué podrías hacer para dejar de sentirte (1)?
+
+key: @feliz 8
+decomp: estoy *
+reasmb: ¡Eso suena genial! ¿Qué te hace sentir (1)?
+reasmb: Me alegra escuchar que estás (1). ¿Quieres contarme más?
+
+key: jugar 20
+decomp: * tic tac toe *
+reasmb: ¡Listo! Abriendo el juego…
+decomp: * gato *
+reasmb: ¡Va! Abriendo el juego de gato…
+decomp: * tres en raya *
+reasmb: ¡Excelente! Abriendo el juego…
+
+key: xnone
+decomp: *
+reasmb: Entiendo... sigue, por favor.
+reasmb: Interesante, cuéntame más.
+reasmb: ¿Podrías explicar un poco mejor?
+
+key: pregunta 5
+decomp: * te quiero hacer una pregunta *
+reasmb: Claro, dime tu pregunta.
+reasmb: Adelante, estoy escuchando.
+reasmb: Por supuesto, ¿qué quieres preguntar?

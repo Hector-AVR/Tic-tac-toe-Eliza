@@ -1,0 +1,7 @@
+Ejecuta en esta ruta "npx serve"
+
+Copea y pega el url en un buscador
+
+DISCLAIMER-------------------------------------------------
+
+Si el url es diferente, modifica eliza en la linea 14
